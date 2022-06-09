@@ -1,3 +1,14 @@
 {
-  "name": "name"
+  "dashboard": {
+    "index": {
+      "ti1jvj": "这是个测试的中文",
+      "5ikagi9x3io0": "这是一些测试文本",
+      "byq7jt": "你好",
+      "rcj2nq": "你在做什么",
+      "ez4kqp": "测试中文1"
+    }
+  },
+  "route": {
+    "order_list": "订单列表"
+  }
 }

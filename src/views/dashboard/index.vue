@@ -1,6 +1,8 @@
 <template>
   <div class="dashboard-container">
-    <div class="dashboard-text">{{ $t('name') }}: {{ name }}</div>
+    <div class="dashboard-text">: {{ name }}</div>
+    {{ $t('dashboard.index.ez4kqp') }}
+    {{ $t('route.order_list') }}
   </div>
 </template>
 
@@ -22,6 +24,7 @@ export default {
   &-container {
     margin: 30px;
   }
+
   &-text {
     font-size: 30px;
     line-height: 46px;
