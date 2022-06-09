@@ -3,25 +3,18 @@ import VueI18n from 'vue-i18n'
 import Cookies from 'js-cookie'
 import elementEnLocale from 'element-ui/lib/locale/lang/en' // element-ui lang
 import elementZhLocale from 'element-ui/lib/locale/lang/zh-CN'// element-ui lang
-// import elementEsLocale from 'element-ui/lib/locale/lang/es'// element-ui lang
-// import elementJaLocale from 'element-ui/lib/locale/lang/ja'// element-ui lang
-import enLocale from './en'
-import zhLocale from './zh'
-// import esLocale from './es'
-// import jaLocale from './ja'
-const myEn = require('../locales/en.json')
-const myZh = require('../locales/zh-CN.json')
+
+const myEn = require('./en.json')
+const myZh = require('./zh-CN.json')
 
 Vue.use(VueI18n)
 
 const messages = {
   en: {
-    ...enLocale,
     ...myEn,
     ...elementEnLocale
   },
   zh: {
-    ...zhLocale,
     ...myZh,
     ...elementZhLocale
   }

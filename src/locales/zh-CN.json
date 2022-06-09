@@ -9,6 +9,10 @@
     }
   },
   "route": {
-    "order_list": "订单列表"
+    "order_list": "订单列表",
+    "dashboard": "首页",
+    "example": "案例",
+    "table": "Table",
+    "tree": "Tree"
   }
 }
