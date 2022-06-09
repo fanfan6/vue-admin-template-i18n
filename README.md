@@ -1,4 +1,13 @@
-# vue-admin-template
+# vue-admin-template-i18n
+
+本项目在[vue-admin-template](https://github.com/PanJiaChen/vue-admin-template)的基础上集成了i18n国际化功能
+
+This project integrates the I18N internationalization function on the basis of [vue-admin-template](https://github.com/PanJiaChen/vue-admin-template)
+
+原项目描述：
+
+
+## vue-admin-template
 
 English | [简体中文](./README-zh.md)
 
